@@ -30,4 +30,9 @@ class MainController extends Controller
     {
         return view('pages.blog');
     }
+
+    public function single()
+    {
+        return view('pages.single');
+    }
 }

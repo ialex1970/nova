@@ -11,8 +11,8 @@
             <div class="nav-collapse collapse pull-right">
                 <ul class="nav">
                     <li class="active"><a href="/">Home</a></li>
-                    <li><a href="about">About Us</a></li>
-                    <li><a href="services">Services</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
@@ -29,7 +29,7 @@
                             <li><a href="terms.html">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog">Blog</a></li>
+                    <li><a href="/blog">Blog</a></li>
                     <li><a href="contact-us.html">Contact</a></li>
                     <li class="login">
                         <a data-toggle="modal" href="#loginForm"><i class="icon-lock"></i></a>
