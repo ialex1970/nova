@@ -38,10 +38,10 @@ return [
         'full' => [
             'type' => 'wysiwyg',
         ],
-        'published_at' => [
+/*        'published_at' => [
         'type' => 'date',
         'date_format' => 'y-m-d'
-        ],
+        ],*/
         'image' => [
             'type' => 'image',
             'location' => public_path() . '/uploads/articles/original/',

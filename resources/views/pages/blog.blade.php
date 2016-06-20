@@ -25,18 +25,20 @@
             <div class="span8">
                 <div class="blog">
                     @foreach($articles as $article)
+                        @if($article->active)
                     <div class="blog-item well">
-                        <a href="/single/{{$article->id}}"><h2>{!! $article->title !!}</h2></a>
+                        <a href="/blog/{{$article->id}}"><h2>{!! $article->title !!}</h2></a>
                         <div class="blog-meta clearfix">
                             <p class="pull-left">
-                                <i class="icon-user"></i> by <a href="#">John</a> | <i class="icon-folder-close"></i> Category <a href="#">Bootstrap</a> | <i class="icon-calendar"></i> Sept 16th, 2012
+                                <i class="icon-user"></i> by <a href="#">{{$article->user->name}}</a> | <i class="icon-folder-close"></i> Category <a href="#">{{$article->category->name}}</a> | <i class="icon-calendar"></i> {{ $article->updated_at }}
                             </p>
                             <p class="pull-right"><i class="icon-comment pull"></i> <a href="blog-item.html#comments">3 Comments</a></p>
                         </div>
-                        <p><img src="/uploads/articles/large/{{$article->image}}"></p>
+                        <p><img src="/uploads/articles/small/{{$article->image}}"></p>
                         {!! $article->short !!}
-                        <a class="btn btn-link" href="#">Read More <i class="icon-angle-right"></i></a>
+                        <a class="btn btn-link" href="/blog/{{$article->id}}">Подробнее <i class="icon-angle-right"></i></a>
                     </div>
+                        @endif
                     @endforeach
                     <!-- End Blog Item -->
 

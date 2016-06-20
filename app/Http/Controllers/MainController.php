@@ -37,10 +37,10 @@ class MainController extends Controller
         return view('pages.blog', $this->data);
     }
 
-    public function single()
+    public function single($id)
     {
-
-        return view('pages.single');
+        $this->data['article'] = Article::find($id);
+        return view('pages.single', $this->data);
     }
 
     public function contact()
