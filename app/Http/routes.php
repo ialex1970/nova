@@ -16,3 +16,7 @@ Route::get('/about', 'Maincontroller@about');
 Route::get('/services', 'Maincontroller@services');
 Route::get('/blog', 'Maincontroller@blog');
 Route::get('/blog-item', 'Maincontroller@single');
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
