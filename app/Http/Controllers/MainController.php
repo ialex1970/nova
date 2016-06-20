@@ -35,4 +35,9 @@ class MainController extends Controller
     {
         return view('pages.single');
     }
+
+    public function contact()
+    {
+        return view('pages.contact');
+    }
 }

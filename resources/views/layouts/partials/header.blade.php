@@ -30,7 +30,7 @@
                         </ul>
                     </li>
                     <li><a href="/blog">Blog</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                     <li class="login">
                         <a data-toggle="modal" href="#loginForm"><i class="icon-lock"></i></a>
                     </li>

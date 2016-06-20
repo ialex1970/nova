@@ -16,3 +16,4 @@ Route::get('/about', 'Maincontroller@about');
 Route::get('/services', 'Maincontroller@services');
 Route::get('/blog', 'Maincontroller@blog');
 Route::get('/blog-item', 'Maincontroller@single');
+Route::get('/contact', 'Maincontroller@contact');
