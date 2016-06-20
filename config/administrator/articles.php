@@ -1,17 +1,21 @@
 <?php
 
 return [
-    'title' => 'Posts',
-    'single' => 'post',
-    'model' => 'App\Post',
+    'title' => 'Articles',
+    'single' => 'article',
+    'model' => 'App\Article',
     'columns' => [
         'id',
+        'active',
         'title',
         'short',
         'category_id',
         'user_id',
     ],
     'edit_fields' => [
+        'active' => [
+            'type' => 'bool',
+        ],
         'title' => [
             'type' => 'text',
         ],
@@ -34,10 +38,10 @@ return [
         'full' => [
             'type' => 'wysiwyg',
         ],
-        /*'published_at' => [
+        'published_at' => [
         'type' => 'date',
         'date_format' => 'y-m-d'
-        ],*/
+        ],
         'image' => [
             'type' => 'image',
             'location' => public_path() . '/uploads/articles/original/',

@@ -9,8 +9,13 @@
 namespace App\Http\Controllers;
 
 
+use App\Article;
+use Collective\Html;
+
 class MainController extends Controller
 {
+    protected $data = [];
+
     public function main()
     {
         return view('pages.index');
@@ -28,11 +33,13 @@ class MainController extends Controller
 
     public function blog()
     {
-        return view('pages.blog');
+        $this->data['articles'] = Article::all();
+        return view('pages.blog', $this->data);
     }
 
     public function single()
     {
+
         return view('pages.single');
     }
 
