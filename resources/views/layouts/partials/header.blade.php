@@ -13,7 +13,7 @@
                     <li class="active"><a href="/">Home</a></li>
                     <li><a href="/about">About Us</a></li>
                     <li><a href="/services">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="/portfolio">Portfolio</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">

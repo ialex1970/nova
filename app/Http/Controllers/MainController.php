@@ -40,4 +40,9 @@ class MainController extends Controller
     {
         return view('pages.contact');
     }
+
+    public function portfolio()
+    {
+        return view('pages.portfolio');
+    }
 }

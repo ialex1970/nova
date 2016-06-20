@@ -1,5 +1,5 @@
 /vendor
-/.idea/
+/.idea
 /node_modules
 /public/storage
 Homestead.yaml
@@ -8,5 +8,5 @@ Homestead.json
 .idea/blade.xml
 .idea/vcs.xml
 .idea/workspace.xml
-html/
-.idea/
+/html
+
