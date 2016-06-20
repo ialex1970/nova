@@ -18,3 +18,8 @@ Route::get('/blog', 'Maincontroller@blog');
 Route::get('/blog-item', 'Maincontroller@single');
 Route::get('/contact', 'Maincontroller@contact');
 Route::get('/portfolio', 'Maincontroller@portfolio');
+
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');

@@ -6,7 +6,8 @@
     </div>
     <!--Modal Body-->
     <div class="modal-body">
-        <form class="form-inline" action="index.html" method="post" id="form-login">
+        <form class="form-inline" action="{{ url('/login') }}" method="post" id="form-login">
+            {{ csrf_field() }}
             <input type="text" class="input-small" placeholder="Email">
             <input type="password" class="input-small" placeholder="Password">
             <label class="checkbox">

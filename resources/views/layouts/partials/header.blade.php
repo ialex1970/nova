@@ -23,7 +23,7 @@
                             <li><a href="pricing.html">Pricing</a></li>
                             <li><a href="404.html">404</a></li>
                             <li><a href="typography.html">Typography</a></li>
-                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="/register">Registration</a></li>
                             <li class="divider"></li>
                             <li><a href="privacy.html">Privacy Policy</a></li>
                             <li><a href="terms.html">Terms of Use</a></li>
