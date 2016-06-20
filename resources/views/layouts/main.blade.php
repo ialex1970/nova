@@ -71,7 +71,7 @@
 </header>
 <!-- /header -->
 
-@section('content')
+@yield('content')
 
 <!--Bottom-->
 <section id="bottom" class="main">
