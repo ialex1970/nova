@@ -29,7 +29,7 @@
                             <li><a href="terms.html">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="blog">Blog</a></li>
                     <li><a href="contact-us.html">Contact</a></li>
                     <li class="login">
                         <a data-toggle="modal" href="#loginForm"><i class="icon-lock"></i></a>

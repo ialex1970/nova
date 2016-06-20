@@ -25,4 +25,9 @@ class MainController extends Controller
     {
         return view('pages.services');
     }
+
+    public function blog()
+    {
+        return view('pages.blog');
+    }
 }
