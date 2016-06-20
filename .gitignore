@@ -10,3 +10,7 @@ Homestead.json
 .idea/workspace.xml
 /html
 public/js/
+config/administrator/settings/
+public/packages/
+public/uploads/
+storage/debugbar/
