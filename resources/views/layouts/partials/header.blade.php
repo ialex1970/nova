@@ -37,7 +37,7 @@
                     </li>
                     @else
                     <li class="login">
-                        <a data-toggle="modal" href="{{ Url('/logout') }}"><i>{{ Auth::user()->name }}</i></a>
+                        <a data-toggle="modal" href="{{ Url('/logout') }}"><span class="icon-signout"></span>{{ Auth::user()->name }}</a>
                     </li>
                     @endif
                 </ul>
