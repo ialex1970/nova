@@ -31,9 +31,15 @@
                     </li>
                     <li><a href="/blog">Blog</a></li>
                     <li><a href="/contact">Contact</a></li>
+                    @if (Auth::guest())
                     <li class="login">
                         <a data-toggle="modal" href="#loginForm"><i class="icon-lock"></i></a>
                     </li>
+                    @else
+                    <li class="login">
+                        <a data-toggle="modal" href="{{ Url('/logout') }}"><i>{{ Auth::user()->name }}</i></a>
+                    </li>
+                    @endif
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
